@@ -1,0 +1,14 @@
+# cascalog_hope
+
+Sample code for Cascalog on Hadoop: A New Hope
+
+## Usage
+
+Install leiningen: https://github.com/technomancy/leiningen
+lein deps
+lein repl
+
+user=> (use 'cascalog-hope.core)
+user=> (bootstrap)
+
+user=> (city-state-query)
